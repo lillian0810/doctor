@@ -60,6 +60,15 @@ element.style {
     padding: 20px;
 }
 /*上面是nav*/
+section{
+    margin: 235px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item{
+    margin-left: 35px;
+    margin-bottom: -50px;
+}
 .item-photo{
     width: 460px;
     position: relative;
