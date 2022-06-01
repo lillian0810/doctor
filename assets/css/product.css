@@ -123,7 +123,7 @@ section{
     font-size: 47px;
     width: 500px;
 }
-.item-cart-people{
+.item-cart-people,.item-cart-amount{
     position: relative;
     top: -80px;
     left: 540px;
@@ -222,4 +222,45 @@ section{
     color: rgba(101, 84, 58, 0.659);
     top: 50px;
     font-size: 20px;
+}
+.rating{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.write-submit{
+    background-color: #8e6d52;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 80.5%;
+}
+.write-submit:hover{
+    background-color: rgb(234, 210, 145);
+    color: #8e6d52;
+}
+.ratings {
+    position: relative;
+    top: 140px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #b1b1b1;
+    overflow: hidden;
+}
+.full-stars {
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fde16d;
+}
+.empty-stars:before, .full-stars:before {
+    content:"\2605\2605\2605\2605\2605";
+    font-size: 40px;
+}
+.empty-stars:before {
+    -webkit-text-stroke: 1px #848484;
+}
+.full-stars:before {
+    -webkit-text-stroke: 1px orange;
 }
